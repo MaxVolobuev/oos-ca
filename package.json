@@ -1,0 +1,39 @@
+{
+  "name": "crew-applications",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "informed": "^1.10.5",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-localstorage": "^0.4.1",
+    "styled-components": "^3.4.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "cy:run:locally": "cypress run",
+    "cy:open:locally": "./node_modules/.bin/cypress open"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.0",
+    "cypress": "^7.6.0",
+    "cypress-audit": "^1.0.0",
+    "cypress-cucumber-preprocessor": "^4.1.2",
+    "cypress-terminal-report": "^3.2.2",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

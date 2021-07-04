@@ -1,0 +1,5 @@
+{
+  "cypress/integration/OpenOceanStudio/OpenOceanStudioHomePage.feature": {
+    "OpenOceanStudio Main Page -> Opening a home page": []
+  }
+}

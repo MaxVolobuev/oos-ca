@@ -1,0 +1,8 @@
+{
+  "pluginsFile": "cypress/plugins/index.js",
+  "supportFile": "cypress/support/index.js",
+  "fixturesFolder": "cypress/fixtures",
+  "testFiles": "**/*.{feature,features}",
+  "setupFiles": "@testing-library/react/dont-cleanup-after-each",
+  "chromeWebSecurity": false
+}

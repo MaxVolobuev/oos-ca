@@ -1,0 +1,5 @@
+{
+  "cypress/integration/OpenOceanStudio/SearchByNameAndClear.feature": {
+    "Search people by name -> Searching by name": []
+  }
+}
