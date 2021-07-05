@@ -13,7 +13,7 @@ App will be available on http://localhost:5000
 
 npm run cy:open:locally
 
-### If you want ti run tests with headless mode:
+### If you want to run tests with headless mode:
 
 npm run cy:run:locally
 
