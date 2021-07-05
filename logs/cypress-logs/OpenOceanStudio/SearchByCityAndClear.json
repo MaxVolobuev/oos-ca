@@ -1,5 +1,0 @@
-{
-  "cypress/integration/OpenOceanStudio/SearchByCityAndClear.feature": {
-    "Search people by city -> Searching by city": []
-  }
-}
