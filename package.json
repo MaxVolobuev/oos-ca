@@ -19,7 +19,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "cy:run:locally": "cypress run",
-    "cy:open:locally": "./node_modules/.bin/cypress open"
+    "cy:open:locally": "./node_modules/.bin/cypress open",
+    "docker:run": "docker run -it --rm -p 5000:5000 --name crew-container crew-app"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^7.3.0",

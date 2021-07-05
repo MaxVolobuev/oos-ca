@@ -2,9 +2,9 @@ Hey here is brief instruction how to run cypress tests:
 
 ### Before running the tests you have to start local server with application:
 
-Running in docker
+Running in docker command:
 
-`docker run -it --rm -p 5000:5000 --name crew-container crew-app`
+npm run docker:run
 
 App will be available on http://localhost:5000
 
