@@ -4,6 +4,7 @@ Hey here is brief instruction how to run cypress tests:
 
 Running in docker command:
 
+npm run docker:build
 npm run docker:run
 
 App will be available on http://localhost:5000
